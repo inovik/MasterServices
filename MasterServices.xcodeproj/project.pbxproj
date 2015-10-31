@@ -11,7 +11,6 @@
 		7A4710081BE4589D00EAB9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710071BE4589D00EAB9D7 /* Assets.xcassets */; };
 		7A4710171BE461FB00EAB9D7 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710161BE461FB00EAB9D7 /* CoreDataManager.m */; settings = {ASSET_TAGS = (); }; };
 		7A47101A1BE4622E00EAB9D7 /* MasterServices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710181BE4622E00EAB9D7 /* MasterServices.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		7A47102B1BE463FD00EAB9D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710291BE463FD00EAB9D7 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		7A47102C1BE463FD00EAB9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47102A1BE463FD00EAB9D7 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		7A4710301BE4646800EAB9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47102E1BE4646800EAB9D7 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		7A4710311BE4646800EAB9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47102F1BE4646800EAB9D7 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
@@ -313,7 +312,6 @@
 			files = (
 				7A4710301BE4646800EAB9D7 /* Main.storyboard in Resources */,
 				7A4710311BE4646800EAB9D7 /* LaunchScreen.storyboard in Resources */,
-				7A47102B1BE463FD00EAB9D7 /* Info.plist in Resources */,
 				7A4710081BE4589D00EAB9D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
