@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class APServiceListModel;
+
 @interface APServiceList : UIViewController
+
+@property (nonatomic, strong) APServiceListModel *model;
 
 @end

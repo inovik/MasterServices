@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F1021" minimumToolsVersion="Automatic">
+    <entity name="APMaster" representedClassName="APMaster" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="services" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APService" inverseName="master" inverseEntity="APService" syncable="YES"/>
+    </entity>
+    <entity name="APService" representedClassName="APService" syncable="YES">
+        <attribute name="coast" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="master" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="APMaster" inverseName="services" inverseEntity="APMaster" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="APMaster" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="APService" positionX="-54" positionY="9" width="128" height="105"/>
+    </elements>
+</model>

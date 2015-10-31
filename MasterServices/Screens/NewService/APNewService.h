@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class APNewServiceModel;
+
+@protocol SaveServiceDelegate <NSObject>
+
+@required
+
+- (void)saveNewServiceWithParams:(NSDictionary *)params;
+
+@end
+
 @interface APNewService : UIViewController
 
+@property (nonatomic, strong) APNewServiceModel *model;
+@property (nonatomic, weak) id<SaveServiceDelegate> delegate;
 @end

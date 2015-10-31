@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+@class APService;
+
+@protocol DeleteService <NSObject>
+
+@required
+- (void)deleteCell:(id)cell;
+@end
+
 @interface APServiceListCell : UITableViewCell
+
+@property (strong, nonatomic) APService *service;
+@property (nonatomic, weak) id<DeleteService> delegate;
+
+- (IBAction)deleteServiceButton:(id)sender;
+- (void)configureCelWithService:(APService *)service;
 
 @end

@@ -7,27 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A470FFA1BE4589D00EAB9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A470FF91BE4589D00EAB9D7 /* main.m */; };
 		7A470FFD1BE4589D00EAB9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A470FFC1BE4589D00EAB9D7 /* AppDelegate.m */; };
-		7A4710001BE4589D00EAB9D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A470FFF1BE4589D00EAB9D7 /* ViewController.m */; };
-		7A4710031BE4589D00EAB9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710011BE4589D00EAB9D7 /* Main.storyboard */; };
-		7A4710061BE4589D00EAB9D7 /* MasterServices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710041BE4589D00EAB9D7 /* MasterServices.xcdatamodeld */; };
 		7A4710081BE4589D00EAB9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710071BE4589D00EAB9D7 /* Assets.xcassets */; };
-		7A47100B1BE4589D00EAB9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710091BE4589D00EAB9D7 /* LaunchScreen.storyboard */; };
+		7A4710171BE461FB00EAB9D7 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710161BE461FB00EAB9D7 /* CoreDataManager.m */; settings = {ASSET_TAGS = (); }; };
+		7A47101A1BE4622E00EAB9D7 /* MasterServices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710181BE4622E00EAB9D7 /* MasterServices.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		7A47102B1BE463FD00EAB9D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A4710291BE463FD00EAB9D7 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		7A47102C1BE463FD00EAB9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47102A1BE463FD00EAB9D7 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		7A4710301BE4646800EAB9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47102E1BE4646800EAB9D7 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		7A4710311BE4646800EAB9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47102F1BE4646800EAB9D7 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		7A4710481BE465D400EAB9D7 /* APService+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710411BE465D400EAB9D7 /* APService+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		7A4710491BE465D400EAB9D7 /* APService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710431BE465D400EAB9D7 /* APService.m */; settings = {ASSET_TAGS = (); }; };
+		7A47104A1BE465D400EAB9D7 /* APMaster+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710451BE465D400EAB9D7 /* APMaster+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		7A47104B1BE465D400EAB9D7 /* APMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710471BE465D400EAB9D7 /* APMaster.m */; settings = {ASSET_TAGS = (); }; };
+		7A47104E1BE4662900EAB9D7 /* StoryboardConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47104D1BE4662900EAB9D7 /* StoryboardConstants.m */; settings = {ASSET_TAGS = (); }; };
+		7A4710551BE46C3F00EAB9D7 /* APMastersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710541BE46C3F00EAB9D7 /* APMastersList.m */; settings = {ASSET_TAGS = (); }; };
+		7A4710581BE46C5600EAB9D7 /* APMastersListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710571BE46C5600EAB9D7 /* APMastersListModel.m */; settings = {ASSET_TAGS = (); }; };
+		7A47105C1BE47A3D00EAB9D7 /* APServiceListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47105B1BE47A3D00EAB9D7 /* APServiceListModel.m */; settings = {ASSET_TAGS = (); }; };
+		7A47105F1BE47A5400EAB9D7 /* APServiceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47105E1BE47A5400EAB9D7 /* APServiceList.m */; settings = {ASSET_TAGS = (); }; };
+		7A4710691BE4806800EAB9D7 /* APServiceListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4710681BE4806800EAB9D7 /* APServiceListCell.m */; settings = {ASSET_TAGS = (); }; };
+		7A47106D1BE4892200EAB9D7 /* APNewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47106C1BE4892200EAB9D7 /* APNewService.m */; settings = {ASSET_TAGS = (); }; };
+		7AFFBB6C1BE57D590057F135 /* APNewServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFBB6B1BE57D590057F135 /* APNewServiceCell.m */; settings = {ASSET_TAGS = (); }; };
+		890756C4817DB6EE9A13FB8C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED73E5F2EE316BE9F2F7D27 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A470FF51BE4589D00EAB9D7 /* MasterServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A470FF91BE4589D00EAB9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A470FFB1BE4589D00EAB9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A470FFC1BE4589D00EAB9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A470FFE1BE4589D00EAB9D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A470FFF1BE4589D00EAB9D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7A4710021BE4589D00EAB9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A4710051BE4589D00EAB9D7 /* MasterServices.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasterServices.xcdatamodel; sourceTree = "<group>"; };
 		7A4710071BE4589D00EAB9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A47100A1BE4589D00EAB9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A47100C1BE4589D00EAB9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4710151BE461FB00EAB9D7 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = CoreData/CoreDataManager.h; sourceTree = "<group>"; };
+		7A4710161BE461FB00EAB9D7 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = CoreData/CoreDataManager.m; sourceTree = "<group>"; };
+		7A4710191BE4622E00EAB9D7 /* MasterServices.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasterServices.xcdatamodel; sourceTree = "<group>"; };
+		7A4710281BE463DB00EAB9D7 /* MasterServices.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterServices.pch; path = "Supporting Files/MasterServices.pch"; sourceTree = "<group>"; };
+		7A4710291BE463FD00EAB9D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		7A47102A1BE463FD00EAB9D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		7A47102E1BE4646800EAB9D7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
+		7A47102F1BE4646800EAB9D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboard/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A4710401BE465D400EAB9D7 /* APService+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "APService+CoreDataProperties.h"; path = "CoreData/Entyties/APService+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7A4710411BE465D400EAB9D7 /* APService+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "APService+CoreDataProperties.m"; path = "CoreData/Entyties/APService+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7A4710421BE465D400EAB9D7 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APService.h; path = CoreData/Entyties/APService.h; sourceTree = "<group>"; };
+		7A4710431BE465D400EAB9D7 /* APService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APService.m; path = CoreData/Entyties/APService.m; sourceTree = "<group>"; };
+		7A4710441BE465D400EAB9D7 /* APMaster+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "APMaster+CoreDataProperties.h"; path = "CoreData/Entyties/APMaster+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7A4710451BE465D400EAB9D7 /* APMaster+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "APMaster+CoreDataProperties.m"; path = "CoreData/Entyties/APMaster+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7A4710461BE465D400EAB9D7 /* APMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APMaster.h; path = CoreData/Entyties/APMaster.h; sourceTree = "<group>"; };
+		7A4710471BE465D400EAB9D7 /* APMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APMaster.m; path = CoreData/Entyties/APMaster.m; sourceTree = "<group>"; };
+		7A47104C1BE4662900EAB9D7 /* StoryboardConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardConstants.h; path = "Supporting Files/Constants/StoryboardConstants.h"; sourceTree = "<group>"; };
+		7A47104D1BE4662900EAB9D7 /* StoryboardConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardConstants.m; path = "Supporting Files/Constants/StoryboardConstants.m"; sourceTree = "<group>"; };
+		7A4710531BE46C3F00EAB9D7 /* APMastersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APMastersList.h; path = Screens/MastersList/APMastersList.h; sourceTree = "<group>"; };
+		7A4710541BE46C3F00EAB9D7 /* APMastersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APMastersList.m; path = Screens/MastersList/APMastersList.m; sourceTree = "<group>"; };
+		7A4710561BE46C5600EAB9D7 /* APMastersListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APMastersListModel.h; path = Screens/MastersList/APMastersListModel.h; sourceTree = "<group>"; };
+		7A4710571BE46C5600EAB9D7 /* APMastersListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APMastersListModel.m; path = Screens/MastersList/APMastersListModel.m; sourceTree = "<group>"; };
+		7A47105A1BE47A3D00EAB9D7 /* APServiceListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APServiceListModel.h; path = Screens/ServiceList/APServiceListModel.h; sourceTree = "<group>"; };
+		7A47105B1BE47A3D00EAB9D7 /* APServiceListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APServiceListModel.m; path = Screens/ServiceList/APServiceListModel.m; sourceTree = "<group>"; };
+		7A47105D1BE47A5400EAB9D7 /* APServiceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APServiceList.h; path = Screens/ServiceList/APServiceList.h; sourceTree = "<group>"; };
+		7A47105E1BE47A5400EAB9D7 /* APServiceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APServiceList.m; path = Screens/ServiceList/APServiceList.m; sourceTree = "<group>"; };
+		7A4710671BE4806800EAB9D7 /* APServiceListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APServiceListCell.h; path = Screens/ServiceList/ServiceListCell/APServiceListCell.h; sourceTree = "<group>"; };
+		7A4710681BE4806800EAB9D7 /* APServiceListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APServiceListCell.m; path = Screens/ServiceList/ServiceListCell/APServiceListCell.m; sourceTree = "<group>"; };
+		7A47106B1BE4892200EAB9D7 /* APNewService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APNewService.h; path = Screens/NewService/APNewService.h; sourceTree = "<group>"; };
+		7A47106C1BE4892200EAB9D7 /* APNewService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APNewService.m; path = Screens/NewService/APNewService.m; sourceTree = "<group>"; };
+		7AFFBB6A1BE57D590057F135 /* APNewServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APNewServiceCell.h; path = Screens/NewService/NewServiceCell/APNewServiceCell.h; sourceTree = "<group>"; };
+		7AFFBB6B1BE57D590057F135 /* APNewServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APNewServiceCell.m; path = Screens/NewService/NewServiceCell/APNewServiceCell.m; sourceTree = "<group>"; };
+		9AB252C9E3FEF89F80751B02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B4BB6423B48EAE146B75F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FED73E5F2EE316BE9F2F7D27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +77,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890756C4817DB6EE9A13FB8C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6268420EA05D99258CCF829A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AB252C9E3FEF89F80751B02 /* Pods.debug.xcconfig */,
+				B7B4BB6423B48EAE146B75F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A470FEC1BE4589D00EAB9D7 = {
 			isa = PBXGroup;
 			children = (
 				7A470FF71BE4589D00EAB9D7 /* MasterServices */,
 				7A470FF61BE4589D00EAB9D7 /* Products */,
+				6268420EA05D99258CCF829A /* Pods */,
+				E397F72B8BE6B7A5CE43CD33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +116,10 @@
 			children = (
 				7A470FFB1BE4589D00EAB9D7 /* AppDelegate.h */,
 				7A470FFC1BE4589D00EAB9D7 /* AppDelegate.m */,
-				7A470FFE1BE4589D00EAB9D7 /* ViewController.h */,
-				7A470FFF1BE4589D00EAB9D7 /* ViewController.m */,
-				7A4710011BE4589D00EAB9D7 /* Main.storyboard */,
+				7A4710121BE4617400EAB9D7 /* Screens */,
+				7A47102D1BE4640800EAB9D7 /* Storyboard */,
+				7A4710141BE4619300EAB9D7 /* CoreData */,
 				7A4710071BE4589D00EAB9D7 /* Assets.xcassets */,
-				7A4710091BE4589D00EAB9D7 /* LaunchScreen.storyboard */,
-				7A47100C1BE4589D00EAB9D7 /* Info.plist */,
-				7A4710041BE4589D00EAB9D7 /* MasterServices.xcdatamodeld */,
 				7A470FF81BE4589D00EAB9D7 /* Supporting Files */,
 			);
 			path = MasterServices;
@@ -77,9 +128,125 @@
 		7A470FF81BE4589D00EAB9D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A470FF91BE4589D00EAB9D7 /* main.m */,
+				7A4710331BE464F200EAB9D7 /* Constants */,
+				7A4710291BE463FD00EAB9D7 /* Info.plist */,
+				7A47102A1BE463FD00EAB9D7 /* main.m */,
+				7A4710281BE463DB00EAB9D7 /* MasterServices.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4710121BE4617400EAB9D7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7A4710591BE47A1F00EAB9D7 /* ServiceList */,
+				7A47104F1BE46BDF00EAB9D7 /* MastersList */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		7A4710141BE4619300EAB9D7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7A47101B1BE462E700EAB9D7 /* Entyties */,
+				7A4710181BE4622E00EAB9D7 /* MasterServices.xcdatamodeld */,
+				7A4710151BE461FB00EAB9D7 /* CoreDataManager.h */,
+				7A4710161BE461FB00EAB9D7 /* CoreDataManager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		7A47101B1BE462E700EAB9D7 /* Entyties */ = {
+			isa = PBXGroup;
+			children = (
+				7A4710401BE465D400EAB9D7 /* APService+CoreDataProperties.h */,
+				7A4710411BE465D400EAB9D7 /* APService+CoreDataProperties.m */,
+				7A4710421BE465D400EAB9D7 /* APService.h */,
+				7A4710431BE465D400EAB9D7 /* APService.m */,
+				7A4710441BE465D400EAB9D7 /* APMaster+CoreDataProperties.h */,
+				7A4710451BE465D400EAB9D7 /* APMaster+CoreDataProperties.m */,
+				7A4710461BE465D400EAB9D7 /* APMaster.h */,
+				7A4710471BE465D400EAB9D7 /* APMaster.m */,
+			);
+			name = Entyties;
+			sourceTree = "<group>";
+		};
+		7A47102D1BE4640800EAB9D7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A47102E1BE4646800EAB9D7 /* Main.storyboard */,
+				7A47102F1BE4646800EAB9D7 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7A4710331BE464F200EAB9D7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7A47104C1BE4662900EAB9D7 /* StoryboardConstants.h */,
+				7A47104D1BE4662900EAB9D7 /* StoryboardConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		7A47104F1BE46BDF00EAB9D7 /* MastersList */ = {
+			isa = PBXGroup;
+			children = (
+				7A4710531BE46C3F00EAB9D7 /* APMastersList.h */,
+				7A4710541BE46C3F00EAB9D7 /* APMastersList.m */,
+				7A4710561BE46C5600EAB9D7 /* APMastersListModel.h */,
+				7A4710571BE46C5600EAB9D7 /* APMastersListModel.m */,
+			);
+			name = MastersList;
+			sourceTree = "<group>";
+		};
+		7A4710591BE47A1F00EAB9D7 /* ServiceList */ = {
+			isa = PBXGroup;
+			children = (
+				7A47106A1BE488F100EAB9D7 /* NewService */,
+				7A4710601BE47A9100EAB9D7 /* ServiceListCell */,
+				7A47105A1BE47A3D00EAB9D7 /* APServiceListModel.h */,
+				7A47105B1BE47A3D00EAB9D7 /* APServiceListModel.m */,
+				7A47105D1BE47A5400EAB9D7 /* APServiceList.h */,
+				7A47105E1BE47A5400EAB9D7 /* APServiceList.m */,
+			);
+			name = ServiceList;
+			sourceTree = "<group>";
+		};
+		7A4710601BE47A9100EAB9D7 /* ServiceListCell */ = {
+			isa = PBXGroup;
+			children = (
+				7A4710671BE4806800EAB9D7 /* APServiceListCell.h */,
+				7A4710681BE4806800EAB9D7 /* APServiceListCell.m */,
+			);
+			name = ServiceListCell;
+			sourceTree = "<group>";
+		};
+		7A47106A1BE488F100EAB9D7 /* NewService */ = {
+			isa = PBXGroup;
+			children = (
+				7AFFBB691BE57D0E0057F135 /* NewServiceCell */,
+				7A47106B1BE4892200EAB9D7 /* APNewService.h */,
+				7A47106C1BE4892200EAB9D7 /* APNewService.m */,
+			);
+			name = NewService;
+			sourceTree = "<group>";
+		};
+		7AFFBB691BE57D0E0057F135 /* NewServiceCell */ = {
+			isa = PBXGroup;
+			children = (
+				7AFFBB6A1BE57D590057F135 /* APNewServiceCell.h */,
+				7AFFBB6B1BE57D590057F135 /* APNewServiceCell.m */,
+			);
+			name = NewServiceCell;
+			sourceTree = "<group>";
+		};
+		E397F72B8BE6B7A5CE43CD33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED73E5F2EE316BE9F2F7D27 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A47100F1BE4589D00EAB9D7 /* Build configuration list for PBXNativeTarget "MasterServices" */;
 			buildPhases = (
+				562CDC7E4BBF6D3E67327E33 /* Check Pods Manifest.lock */,
 				7A470FF11BE4589D00EAB9D7 /* Sources */,
 				7A470FF21BE4589D00EAB9D7 /* Frameworks */,
 				7A470FF31BE4589D00EAB9D7 /* Resources */,
+				38651B0D3B920A7DB9771430 /* Copy Pods Resources */,
+				7A4710321BE464AE00EAB9D7 /* Generate Storyboard Constants */,
 			);
 			buildRules = (
 			);
@@ -108,6 +278,7 @@
 		7A470FED1BE4589D00EAB9D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AP;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = inov;
 				TargetAttributes = {
@@ -140,46 +311,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A47100B1BE4589D00EAB9D7 /* LaunchScreen.storyboard in Resources */,
+				7A4710301BE4646800EAB9D7 /* Main.storyboard in Resources */,
+				7A4710311BE4646800EAB9D7 /* LaunchScreen.storyboard in Resources */,
+				7A47102B1BE463FD00EAB9D7 /* Info.plist in Resources */,
 				7A4710081BE4589D00EAB9D7 /* Assets.xcassets in Resources */,
-				7A4710031BE4589D00EAB9D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38651B0D3B920A7DB9771430 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562CDC7E4BBF6D3E67327E33 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4710321BE464AE00EAB9D7 /* Generate Storyboard Constants */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(PROJECT_NAME)/Storyboard/Main.storyboard",
+			);
+			name = "Generate Storyboard Constants";
+			outputPaths = (
+				"${SRCROOT}/$(PROJECT_NAME)/Supporting Files/Constants/StoryboardConstants.h",
+				"${SRCROOT}/$(PROJECT_NAME)/Supporting Files/Constants/StoryboardConstants.m",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python \"${SRCROOT}/Scripts/generate_constants.py\" \"${SCRIPT_OUTPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_1}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A470FF11BE4589D00EAB9D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4710001BE4589D00EAB9D7 /* ViewController.m in Sources */,
+				7A4710491BE465D400EAB9D7 /* APService.m in Sources */,
+				7A47104A1BE465D400EAB9D7 /* APMaster+CoreDataProperties.m in Sources */,
+				7A4710551BE46C3F00EAB9D7 /* APMastersList.m in Sources */,
+				7A47105F1BE47A5400EAB9D7 /* APServiceList.m in Sources */,
+				7A4710691BE4806800EAB9D7 /* APServiceListCell.m in Sources */,
+				7A47106D1BE4892200EAB9D7 /* APNewService.m in Sources */,
+				7A47104B1BE465D400EAB9D7 /* APMaster.m in Sources */,
 				7A470FFD1BE4589D00EAB9D7 /* AppDelegate.m in Sources */,
-				7A470FFA1BE4589D00EAB9D7 /* main.m in Sources */,
-				7A4710061BE4589D00EAB9D7 /* MasterServices.xcdatamodeld in Sources */,
+				7A4710171BE461FB00EAB9D7 /* CoreDataManager.m in Sources */,
+				7AFFBB6C1BE57D590057F135 /* APNewServiceCell.m in Sources */,
+				7A47102C1BE463FD00EAB9D7 /* main.m in Sources */,
+				7A4710481BE465D400EAB9D7 /* APService+CoreDataProperties.m in Sources */,
+				7A47101A1BE4622E00EAB9D7 /* MasterServices.xcdatamodeld in Sources */,
+				7A4710581BE46C5600EAB9D7 /* APMastersListModel.m in Sources */,
+				7A47105C1BE47A3D00EAB9D7 /* APServiceListModel.m in Sources */,
+				7A47104E1BE4662900EAB9D7 /* StoryboardConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7A4710011BE4589D00EAB9D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A4710021BE4589D00EAB9D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A4710091BE4589D00EAB9D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A47100A1BE4589D00EAB9D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A47100D1BE4589D00EAB9D7 /* Debug */ = {
@@ -264,9 +479,11 @@
 		};
 		7A4710101BE4589D00EAB9D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB252C9E3FEF89F80751B02 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MasterServices/Info.plist;
+				GCC_PREFIX_HEADER = "MasterServices/Supporting Files/MasterServices.pch";
+				INFOPLIST_FILE = "MasterServices/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AP.MasterServices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,9 +492,11 @@
 		};
 		7A4710111BE4589D00EAB9D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B4BB6423B48EAE146B75F8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MasterServices/Info.plist;
+				GCC_PREFIX_HEADER = "MasterServices/Supporting Files/MasterServices.pch";
+				INFOPLIST_FILE = "MasterServices/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AP.MasterServices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,17 +522,19 @@
 				7A4710111BE4589D00EAB9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7A4710041BE4589D00EAB9D7 /* MasterServices.xcdatamodeld */ = {
+		7A4710181BE4622E00EAB9D7 /* MasterServices.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7A4710051BE4589D00EAB9D7 /* MasterServices.xcdatamodel */,
+				7A4710191BE4622E00EAB9D7 /* MasterServices.xcdatamodel */,
 			);
-			currentVersion = 7A4710051BE4589D00EAB9D7 /* MasterServices.xcdatamodel */;
-			path = MasterServices.xcdatamodeld;
+			currentVersion = 7A4710191BE4622E00EAB9D7 /* MasterServices.xcdatamodel */;
+			name = MasterServices.xcdatamodeld;
+			path = CoreData/MasterServices.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
