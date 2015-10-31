@@ -1,0 +1,15 @@
+//
+//  MasterServices.pch
+//  MasterServices
+//
+//  Created by Ivan Novikov on 31.10.15.
+//  Copyright © 2015 inov. All rights reserved.
+//
+
+#ifndef MasterServices_pch
+#define MasterServices_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MasterServices_pch */

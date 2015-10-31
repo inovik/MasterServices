@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  APNewServiceCell.h
 //  MasterServices
 //
 //  Created by Ivan Novikov on 31.10.15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface APNewServiceCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UITextField *textInputField;
 
 @end
-
